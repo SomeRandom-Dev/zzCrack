@@ -1,23 +1,22 @@
 # zzCrack v2
-Ever forgot your password to a zipfile or you just want to crack the password for some reason, Then zzCrack is what you need
+Ever forgot the password to a zip file, or just want to crack the password for some reason? Then zzCrack is what you need.
 
-This is a advanced tool to crack passwords on zipfiles by wordlists or bruteforce.
+This is an advanced tool to crack passwords on zip files using wordlists or a bruteforce attack.
 
-You can also save the current state in wordlist and return from it anytime
+You can also save the current state to a wordlist and resume from it anytime.
 
 ## Download:
-You can download it as a zipfile or however you want
-Then cd into the folder where zz.py is located and run
+`cd` into the folder where zz.py is located and run:
 ```
 pip install -r requirements.txt
 ```
 
 ## Usage:
-Run main.py with either arguments(more advanced) or without arguments(easy)
+Run main.py with either arguments (more advanced) or without arguments (easy)
 
 Argument Help: ```zz.py --help```
 
-### Exampel Usage:
+### Example Usage:
 #### Without arguments:
 ```
 ▒███████▒▒███████▒ ▄████▄   ██▀███   ▄▄▄       ▄████▄   ██ ▄█▀
@@ -58,7 +57,7 @@ Do you want to output everything (slower) or not (faster)  y/n > y
 
 ```python zz.py --restore 0```
 
-**--stream prints everything it tries, it makes the process slower**
+**`--stream` prints everything it tries, it makes the process slower**
 
 
-### If you experience any error please post a issue
+### If you experience any errors please create an issue.
